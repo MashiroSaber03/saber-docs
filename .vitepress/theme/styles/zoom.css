@@ -1,0 +1,40 @@
+/* 图片点击放大样式 */
+.main img {
+  cursor: zoom-in;
+  transition: opacity 0.2s;
+}
+
+.main img:hover {
+  opacity: 0.85;
+}
+
+/* 自定义图片放大遮罩层 */
+#img-zoom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  cursor: zoom-out;
+}
+
+#img-zoom-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+#img-zoom-target {
+  max-width: 85vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
