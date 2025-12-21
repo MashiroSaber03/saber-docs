@@ -55,8 +55,15 @@ pip install -r requirements-cpu.txt
 ```
 
 **GPU 版本（需要 NVIDIA 显卡）：**
+
+1. 安装基础依赖：
 ```bash
 pip install -r requirements-gpu.txt
+```
+
+2. 单独安装 GPU 版 PyTorch (CUDA 13.0)：
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 ```
 
 #### 5. 启动应用
