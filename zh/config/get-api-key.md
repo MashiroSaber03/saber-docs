@@ -46,7 +46,7 @@ outline: deep
 
 ### Google Gemini
 
-Google Gemini需要一定的网络环境以及谷歌账号，请确保您的网络处于链接中的地区，[Google Gemini可用地区](https://ai.google.dev/gemini-api/docs/available-regions?hl=zh-cn)。这里提供一下up用的机场: [迅连](https://soontg.buyzur.com/register?code=Sv6IyPfF)（不是广告，跑路了与up无关，这里只是提供一个选择，您也可自行搜索其他的机场）
+Google Gemini需要一定的网络环境以及谷歌账号，请确保您的网络处于链接中的地区，[Google Gemini可用地区](https://ai.google.dev/gemini-api/docs/available-regions?hl=zh-cn)。这里提供一下up用的机场: [迅连](https://soontg.kbr1g.com//register?code=Sv6IyPfF)（不是广告，跑路了与up无关，这里只是提供一个选择，您也可自行搜索其他的机场）
 
 ![Gemini 可用地区](/images/model4.1.png)
 
