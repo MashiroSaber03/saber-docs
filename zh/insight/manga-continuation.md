@@ -36,6 +36,8 @@
 
 ## 入口位置
 
+![Continue-writing-entry](/images/Continue-writing-entry.png)
+
 漫画续写位于**漫画分析**页面内部。
 
 进入方式：

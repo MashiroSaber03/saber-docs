@@ -4,6 +4,8 @@
 
 ## 功能概述
 
+![character-studio](/images/character-studio.png)
+
 角色工坊并不是一个简单的角色列表页面，而是一套独立的角色资料制作工具。它当前更适合做以下事情：
 
 - 从分析结果中挑选候选角色
@@ -18,7 +20,9 @@
 
 ## 入口位置
 
-角色工坊的入口位于**漫画分析**页面中，但打开后会进入独立工作台。
+![Character-Workshop-entrance](/images/Character-Workshop-entrance.png)
+
+角色工坊的入口位于**漫画分析**页面中，打开后会进入独立工作台。
 
 进入方式：
 
