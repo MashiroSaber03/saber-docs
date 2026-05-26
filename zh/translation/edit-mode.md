@@ -12,7 +12,7 @@
 
 ## 进入编辑模式
 
-使用[普通翻译](./normal-translation)、[高质量翻译](./hq-translation)或[AI校对](./ai-proofreading)完成翻译后，点击图片预览区上方的"切换编辑模式"按钮进入编辑界面。
+使用[普通翻译](/use/normal-translation)、[高质量翻译](/use/hq-translation)或[AI校对](/use/ai-proofreading)完成翻译后，点击图片预览区上方的"切换编辑模式"按钮进入编辑界面。
 
 ---
 

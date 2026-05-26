@@ -8,6 +8,8 @@ export default defineConfig({
   head: head,
 
   rewrites: {
+    'zh/translation/:rest*': 'use/:rest*',
+    'zh/insight/:rest*': 'use/:rest*',
     'zh/:rest*': ':rest*'
   },
 
@@ -71,11 +73,29 @@ export default defineConfig({
             items: [
               { text: "页面介绍", link: "/pages" },
               { text: "书架系统", link: "/bookshelf" },
+            ],
+          },
+          {
+            text: "漫画翻译使用教程",
+            base: "/use",
+            collapsed: false,
+            items: [
               { text: "普通翻译模式", link: "/normal-translation" },
               { text: "高质量翻译模式", link: "/hq-translation" },
               { text: "AI校对模式", link: "/ai-proofreading" },
               { text: "编辑模式", link: "/edit-mode" },
+              { text: "术语表/禁翻表", link: "/glossary-non-translate" },
+              { text: "插件系统", link: "/plugin-system" },
+            ],
+          },
+          {
+            text: "漫画分析使用教程",
+            base: "/use",
+            collapsed: false,
+            items: [
               { text: "漫画分析", link: "/manga-insight" },
+              { text: "漫画续写", link: "/manga-continuation" },
+              { text: "角色工坊", link: "/character-studio" },
             ],
           },
         ],

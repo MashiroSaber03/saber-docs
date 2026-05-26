@@ -38,7 +38,7 @@ outline: deep
 2. **进入控制台**: 登录后，进入“API开放平台”页面。
 3. **创建密钥**: 点击“创建API Key”按钮。
 4. **复制并保存**: 立即复制生成的新密钥。**请妥善保管，因为某些服务商的密钥只显示一次。**
-5. **填入模型型号与API key: ** 模型型号填deepseek-chat即可
+5. **填入模型型号与API key:**  模型型号填deepseek-chat即可
 
 ![DeepSeek API Key](/images/model3.1.png)
 

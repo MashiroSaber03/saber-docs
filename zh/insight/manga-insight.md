@@ -50,7 +50,7 @@ Saber Translator的漫画分析系统的灵感取自于谷歌notebooklm，并对
 
 ### 前置条件
 
-1. 书籍已添加到[书架](./bookshelf)
+1. 书籍已添加到[书架](/use/bookshelf)
 2. 章节已上传图片
 3. 已配置 VLM（视觉语言模型）API（参考 [模型服务配置](/config/model-service)）
 

@@ -34,7 +34,7 @@ AI 校对与高质量翻译使用相同的技术原理：
 
 AI 校对基于已有的翻译结果：
 
-1. 使用[普通翻译](./normal-translation)或[高质量翻译](./hq-translation)完成初步翻译
+1. 使用[普通翻译](/use/normal-translation)或[高质量翻译](/use/hq-translation)完成初步翻译
 2. 确保所有气泡都有译文
 
 ### 步骤二：配置校对轮次
@@ -140,11 +140,11 @@ AI 校对支持配置多个校对轮次，每轮可使用不同的设置：
 ### 推荐流程
 
 ```
-[普通翻译](./normal-translation) → AI 校对（1-2轮）→ [编辑检查](./edit-mode) → 完成
+[普通翻译](/use/normal-translation) → AI 校对（1-2轮）→ [编辑检查](/use/edit-mode) → 完成
 ```
 
 或
 
 ```
-[高质量翻译](./hq-translation) → AI 校对（可选）→ [编辑检查](./edit-mode) → 完成
+[高质量翻译](/use/hq-translation) → AI 校对（可选）→ [编辑检查](/use/edit-mode) → 完成
 ```
