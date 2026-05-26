@@ -225,6 +225,26 @@
 
 ---
 
+## 想自己开发插件？
+
+如果您不只是想“使用插件”，而是准备：
+
+- 自己手写一个插件
+- 深入理解 Hook 的输入输出结构
+- 给团队写可复用的流程扩展
+- 更高效地使用自动生成插件功能
+
+建议继续阅读“高级 → 插件开发”板块：
+
+- [插件开发总览](/advanced/plugin-development-overview)
+- [从零创建第一个插件](/advanced/first-plugin)
+- [Hook 与数据契约](/advanced/hook-contract)
+- [自动生成插件开发](/advanced/plugin-agent-development)
+
+这个板块会更偏向开发者视角，重点讲插件目录结构、元数据、步骤 Hook、输入输出字段，以及如何让 AI Agent 更稳定地帮您生成插件代码。
+
+---
+
 ## 常见问题
 
 ### 启用插件后为什么没有效果？

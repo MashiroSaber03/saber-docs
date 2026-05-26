@@ -98,6 +98,17 @@ export default defineConfig({
               { text: "角色工坊", link: "/character-studio" },
             ],
           },
+          {
+            text: "高级",
+            base: "/advanced",
+            collapsed: false,
+            items: [
+              { text: "插件开发总览", link: "/plugin-development-overview" },
+              { text: "从零创建第一个插件", link: "/first-plugin" },
+              { text: "Hook 与数据契约", link: "/hook-contract" },
+              { text: "自动生成插件开发", link: "/plugin-agent-development" },
+            ],
+          },
         ],
         outline: {
           level: 'deep',
