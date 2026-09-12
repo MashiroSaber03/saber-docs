@@ -46,7 +46,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            set -eu
+            set -eux
             staging="/tmp/saber-docs-${{ github.run_id }}-${{ github.run_attempt }}"
             deploy_path="/www/wwwroot/mashirosaber.top"
             test -s "$staging/.vitepress/dist/index.html"
