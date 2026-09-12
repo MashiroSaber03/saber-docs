@@ -4,58 +4,43 @@ outline: deep
 
 # 如何获取 API Key
 
-### **SiliconFlow (硅基流动)**
+API Key 由模型服务商提供。请先在对应平台创建密钥，再填写到 Saber 的相应服务配置中。控制台界面会变化，以下保留操作路径，并链接到官方说明。
 
-1. **注册账户**: 访问服务商官网 (例如 [SiliconFlow 官网](https://cloud.siliconflow.cn/i/oHstWzTU)) 并注册一个账户。
-2. **进入控制台**: 登录后，找到“API密钥”或“访问管理”等相关页面。
-3. **创建密钥**: 点击“创建密钥”按钮。
-4. **复制并保存**: 立即复制生成的新密钥。**请妥善保管，因为某些服务商的密钥只显示一次。**
+## SiliconFlow（硅基流动）
 
-![SiliconFlow API Key](/images/siliconflow%20key.png)
+1. 登录 SiliconFlow 控制台。
+2. 在密钥管理中创建 API Key。
+3. 从模型列表选择当前账号可调用的模型，复制实际模型 ID。
+4. 在 Saber 选择 SiliconFlow，填写密钥和模型，测试连接。
 
-在服务商的模型广场或文档中，你可以找到它们提供的模型名称，复制后填入 Saber-Translator 即可。
+入口与调用方式见[SiliconFlow 官方快速入门](https://docs.siliconflow.cn/docs/userguide/quickstart)。
 
-![SiliconFlow 模型](/images/siliconflow%20model.png)
+## 火山引擎
 
-### 火山引擎
+在火山方舟控制台按当前官方指引创建 API Key，并取得可调用的模型或推理接入点标识，再填写到 Saber 对应服务配置。
 
-1. **注册账户**: 访问服务商官网 (例如 [火山引擎官网](https://www.volcengine.com/)) 并注册一个账户。
-2. **进入控制台**: 登录后，找到“API Key管理”页面。
-3. **创建密钥**: 点击“创建API Key”按钮。
-4. **复制并保存**: 立即复制生成的新密钥。**请妥善保管，因为某些服务商的密钥只显示一次。**
+请以[火山方舟官方文档](https://www.volcengine.com/docs/82379)为准，不要把商品名称直接当作模型 ID。
 
-![火山引擎 API Key](/images/model2.1.png)
+## DeepSeek
 
-在服务商的模型广场或文档中，你可以找到它们提供的模型名称，复制后填入 Saber-Translator 即可。
+1. 在 DeepSeek 开放平台创建 API Key。
+2. 查看当前可用模型与接口 ID。
+3. 在 Saber 中选择 DeepSeek，填写密钥与实际模型 ID。
 
-![火山引擎模型1](/images/model2.2.png)
+详见[DeepSeek 官方快速入门](https://api-docs.deepseek.com/)。不要把旧教程中的固定模型别名当作长期不变的默认值。
 
-![火山引擎模型2](/images/model2.3.png)
+## Google Gemini
 
-### Deepseek
+通过 Google AI Studio 创建或管理 Gemini API Key，再根据当前模型文档选择所需模型。
 
-1. **注册账户**: 访问服务商官网 (例如 [deepseek官网](https://www.deepseek.com/)) 并注册一个账户。
-2. **进入控制台**: 登录后，进入“API开放平台”页面。
-3. **创建密钥**: 点击“创建API Key”按钮。
-4. **复制并保存**: 立即复制生成的新密钥。**请妥善保管，因为某些服务商的密钥只显示一次。**
-5. **填入模型型号与API key:**  模型型号填deepseek-chat即可
+- [Gemini API Key 官方说明](https://ai.google.dev/gemini-api/docs/api-key)
+- [Gemini 模型文档](https://ai.google.dev/gemini-api/docs/models)
+- [可用地区说明](https://ai.google.dev/gemini-api/docs/available-regions)
 
-![DeepSeek API Key](/images/model3.1.png)
+密钥类型、项目权限和可用地区以官方要求为准。不要使用第三方网络服务推荐替代对官方可用条件的检查。
 
-![DeepSeek 模型](/images/model3.2.png)
+## 填写后如何检查
 
-### Google Gemini
+回到[模型服务配置](/config/model-service)，先测试连接，再用少量内容测试实际能力。能获取模型列表不代表某个模型支持图片输入。
 
-Google Gemini需要一定的网络环境以及谷歌账号，请确保您的网络处于链接中的地区，[Google Gemini可用地区](https://ai.google.dev/gemini-api/docs/available-regions?hl=zh-cn)。这里提供一下up用的机场: [迅连](https://soontg.kbr1g.com//register?code=Sv6IyPfF)（不是广告，跑路了与up无关，这里只是提供一个选择，您也可自行搜索其他的机场）
-
-![Gemini 可用地区](/images/model4.1.png)
-
-设置好网络环境与谷歌账号后，进入[ai studio](https://aistudio.google.com/prompts/new_chat)网页，通过谷歌账号登录并创建api key
-
-![AI Studio 登录](/images/model4.2.png)
-
-![Gemini API Key](/images/model4.4.png)
-
-可在[谷歌API开发文档](https://ai.google.dev/gemini-api/docs/models?hl=zh-cn)中找到所有模型的型号名
-
-![Gemini 模型列表](/images/model4.5.png)
+不要把 API Key 或插件配对令牌贴到反馈截图、公开日志或群聊中。

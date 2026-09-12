@@ -2,10 +2,8 @@ import type { HeadConfig } from "vitepress";
 
 export const head: HeadConfig[] = [
     // --- Google Fonts ---
-    ["link", { rel: "preconnect", href: "https://fonts.googleapis.cn", crossorigin: "" }],
-    ["link", { rel: "dns-prefetch", href: "https://fonts.googleapis.cn" }],
-    ["link", { rel: "preconnect", href: "https://fonts.gstatic.cn", crossorigin: "" }],
-    ["link", { rel: "dns-prefetch", href: "https://fonts.gstatic.cn" }],
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
     ["link", { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" }],
 
     // --- 基础和SEO元数据 ---
@@ -21,7 +19,7 @@ export const head: HeadConfig[] = [
     ["meta", { property: "og:locale", content: "zh_CN" }],
     ["meta", { property: "og:title", content: "Saber Translator" }],
     ["meta", { property: "og:description", content: "AI 驱动的漫画翻译工具" }],
-    ["meta", { property: "og:url", content: "https://saber-translator.github.io" }],
+    ["meta", { property: "og:url", content: "https://mashirosaber.top" }],
     ["meta", { property: "og:site_name", content: "Saber Translator" }],
 
 ];

@@ -14,11 +14,11 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: "https://saber-translator.github.io",
+    hostname: "https://mashirosaber.top",
   },
 
   lastUpdated: true,
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   
   locales: {
     root: {
@@ -72,7 +72,11 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: "页面介绍", link: "/pages" },
+              { text: "桌面控制中心", link: "/desktop" },
               { text: "书架系统", link: "/bookshelf" },
+              { text: "内容导入与导出", link: "/import-export" },
+              { text: "任务中心", link: "/task-center" },
+              { text: "数据保存与备份", link: "/data-management" },
             ],
           },
           {
@@ -86,6 +90,7 @@ export default defineConfig({
               { text: "编辑模式", link: "/edit-mode" },
               { text: "术语表/禁翻表", link: "/glossary-non-translate" },
               { text: "插件系统", link: "/plugin-system" },
+              { text: "浏览器插件", link: "/browser-extension" },
             ],
           },
           {
