@@ -48,13 +48,15 @@ jobs:
           script: |
             set -eux
             staging="/tmp/saber-docs-${{ github.run_id }}-${{ github.run_attempt }}"
+            trap 'rm -rf -- "$staging"' EXIT
             deploy_path="/www/wwwroot/mashirosaber.top"
             test -s "$staging/.vitepress/dist/index.html"
             test -d "$deploy_path"
-            cat /etc/os-release
-            command -v rsync >/dev/null
+            # The deployment host runs Alibaba Cloud Linux 3.
+            if ! command -v rsync >/dev/null; then
+              yum install -y rsync
+            fi
             # Transfer first, replace files at the end, then remove stale files.
             # Preserve server-managed dotfiles (e.g. .user.ini and .well-known).
             rsync -rlt --delay-updates --delete-delay --exclude='/.*' \
               "$staging/.vitepress/dist/" "$deploy_path/"
-            rm -rf -- "$staging"
