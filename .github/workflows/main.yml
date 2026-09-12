@@ -51,6 +51,7 @@ jobs:
             deploy_path="/www/wwwroot/mashirosaber.top"
             test -s "$staging/.vitepress/dist/index.html"
             test -d "$deploy_path"
+            cat /etc/os-release
             command -v rsync >/dev/null
             # Transfer first, replace files at the end, then remove stale files.
             # Preserve server-managed dotfiles (e.g. .user.ini and .well-known).
