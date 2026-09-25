@@ -33,6 +33,8 @@ features:
   - icon: 🌸
     title: 浏览器插件
     details: 在漫画网页原位置查看译图，悬浮窗内完成翻译、配置和任务操作，需要保留时导入书架
+    link: /use/browser-extension
+    linkText: 安装与使用
   - icon: 📋
     title: 后台任务
     details: 翻译、分析和批量处理交给后端执行，在桌面控制中心和 Web 任务中心查看、暂停、恢复与重试
